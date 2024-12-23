@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    background-color:rgb(226, 193, 193);
+    margin: 10px 60px; 
+    height: 1350px;   
+}
+#flo{
+    font-weight: 900;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+.navbar{
+    margin-bottom: 50px;
+    margin-top: -10px;
+    display: flex;
+    gap: 40%;
+    position: fixed;
+    background-color: rgb(177, 169, 169);
+    width: 91.1%;   
+}
+ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#hvvr:hover{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#helo,#abt{
+    color:orange;
+    margin-bottom: 20px;
+}
+#about{
+    color: white;
+}
+pre{
+    font-family: sans-serif;
+    color: white;
+    font-size: large;
+    line-height: 2;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+button{
+    padding: 20px 50px;
+   font-family: sans-serif;
+   font-size: large;
+   font-weight: 600;
+}
+#hire{
+    background-color: purple;
+    border: 2px solid purple;
+    color: white;
+    border-radius: 7px;
+}
+#cv{
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    border-radius: 7px;
+}
+#cvv{
+    color: orange;
+}
+#cv:hover{
+    color: orange;
+    background-color: white;
+    border: 2px solid orange;
+    scale: 1.2;
+}
+#hire:hover{
+    color: purple;
+    background-color: white;
+    scale: 1.2;
+}
+.btm{
+    display: flex;
+    gap: 100px;
+    margin-top: 55px;
+}
+.main,.data2{
+    display: flex;
+}
+.main{
+    margin-left: 20px;
+}
+.data1{
+    margin-top: 200px;
+}
+#imgg{
+    margin-top: 50px;
+    width: 500px;
+    height: 80%;
+    margin-left: 40px;
+}
+#abtt{
+    text-align: center;
+    font-size: xx-large;
+    font-family: poppins,sans-serif;
+    color: orange;
+}
+.abttt{
+    margin: 30px;
+}
+.data{
+    margin: 40px;
+}
+#datt{
+    font-size: large;
+    color: rgb(43, 39, 39);
+    text-align: center;
+    color: white;
+}
+.logo{
+    height: 200px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(32, 31, 31);
+    box-shadow: 6px 6px 10px  rgb(32, 31, 31);    
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin: 20px;
+
+}
+.logos:hover>:not(:hover){
+    filter: blur(5px);
+    opacity: 1.2;
+    scale: 0.9;
+}
